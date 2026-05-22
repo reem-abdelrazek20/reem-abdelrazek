@@ -1,0 +1,72 @@
+/* home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.home-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #535c91;
+  box-shadow:
+    0 0 10px rgba(146, 144, 195, 0.4),
+    0 8px 20px rgba(146, 144, 195, 0.15);
+}
+
+.home-container h1 {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+}
+
+.home-container p {
+  font-size: 18px;
+}
+.animated-role {
+  font-size: 1.2rem;
+  color: #e0dfff;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+
+  text-shadow: 1px 1px 2px rgba(83, 92, 145, 0.3);
+}
+
+.words::before {
+  content: "Front-end Developer";
+  animation: changeWords 6s infinite;
+  color: #ffe28a;
+}
+
+@keyframes changeWords {
+  0% {
+    content: "Front-end Developer";
+  }
+  33% {
+    content: "React Builder";
+  }
+  66% {
+    content: "UI/UX Learner";
+  }
+  100% {
+    content: "Front-end Developer";
+  }
+}
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}

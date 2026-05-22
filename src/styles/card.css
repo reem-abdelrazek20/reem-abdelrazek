@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+
+:root {
+  --d: 0.4s;
+  --e: ease-in-out;
+  --font-serif: "Cardo", serif;
+}
+
+.page-content {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+@media (min-width: 600px) {
+  .page-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 800px) {
+  .page-content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  height: 350px;
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+  color: whitesmoke;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card .content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background: transparent;
+  transform: translateY(100%); /* يبدأ من تحت */
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.card .title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+}
+
+.card .copy {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.card .btn {
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+
+  color: white;
+
+  transition: background 0.3s, transform 0.3s;
+}
+
+.card .btn:hover {
+  color: #8a8fce;
+  transform: scale(1.05);
+}
+
+@media (hover: hover) {
+  .card:hover .overlay {
+    opacity: 1;
+  }
+
+  .card:hover .content {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.card.active .overlay {
+  opacity: 1;
+}
+
+
+
+
+

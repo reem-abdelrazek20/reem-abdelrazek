@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+
+
+:root {
+ --color-bg-main: #070F2B;       
+  --color-bg-section: #1B1A55;    
+  --color-primary: #535C91;       
+  --color-accent: #9290C3; 
+  
+}
+
+body {
+   padding-top: 100px;
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: var(--color-bg-main);
+  color: var(--color-accent);
+}
+
+header, footer {
+
+  padding: 20px;
+  text-align: center;
+  color: var(--color-accent);
+}
+
+/* section {
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  margin-top: 70px;
+} */
+
+h1, h2, h3 {
+  color: white;
+}
+
+.btn {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  padding: 10px 24px;
+  font-size: 18px;
+  color:  #FFE28A;
+  border: 2px solid  #FFE28A;
+  border-radius: 34px;
+  background-color: transparent;
+  font-weight: 600;
+  text-decoration: none;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  z-index: 1;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: inherit;
+  background-color: #FFE28A;
+  scale: 0;
+  z-index: -1;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btn:hover::before {
+  scale: 3;
+}
+
+.btn:hover {
+  color: #212121;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px  #FFE28A;
+  text-decoration: none;
+}
+
+.btn:active {
+  transform: scale(1);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+
+i {
+  color: var(--color-accent);
+  font-size: 20px;
+  margin-right: 8px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+i:hover {
+  color: var(--color-primary);
+  transform: scale(1.2);
+}
+.section-header {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 4px;
+
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.section-header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 2px;
+  background-color: #60a5fa;
+}
+
