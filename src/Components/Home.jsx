@@ -31,7 +31,7 @@ export default function Home() {
         </a>
       </div>
 
-    <a href="/Reem Abdelrazek-CV.pdf" download className="btn mt-5">
+    <a href="/Reem Abdelrazek-cv.pdf" download className="btn mt-5">
   <i className="fa-solid fa-download"></i> Download CV
 </a>
     </div>
