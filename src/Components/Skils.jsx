@@ -5,7 +5,7 @@ export default function Skills() {
   const [activeTab, setActiveTab] = useState("hard");
 
   return (
-    <div className="mt-10">
+    <div className="mt-10" id="Skills">
       <h2 className="section-header">My Skills</h2>
 
       <section className="skills-section">

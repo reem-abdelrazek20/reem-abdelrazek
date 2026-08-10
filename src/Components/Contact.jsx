@@ -2,7 +2,7 @@ import "../styles/contactStyle.css";
 
 export default function Contact() {
   return (
-    <section id="contact ">
+    <section id="contact">
       <h2 className="section-header">Contact</h2>
       <p className="section-subheader">
         Let's connect! I'm always open to discussing new opportunities and
@@ -17,7 +17,9 @@ export default function Contact() {
           </p>
           <div className="buttons ">
             <button>Send Email</button>
-            <button>Download CV</button>
+            <a className="btn" href="/Reem Abdelrazek-cv.pdf" download>
+  Download CV
+</a>
           </div>
         </div>
         <div className="card-contact">
@@ -27,7 +29,7 @@ export default function Contact() {
               <strong>
                 <i className="fa-solid fa-location-dot"></i> Location:
               </strong>
-              Esna - Luxor, Egypt
+              Luxor, Egypt
             </li>
             <li>
               <strong>

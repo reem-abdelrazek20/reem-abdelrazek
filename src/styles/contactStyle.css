@@ -36,13 +36,12 @@
 .card-contact {
   flex: 1;
   width: 100%;
-max-width: 550px;
+  max-width: 550px;
   background: #1b1f3b;
   border: 1px solid #535c91;
   border-radius: 20px;
   padding: 20px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
- 
 }
 
 .card-h2 {
@@ -63,34 +62,49 @@ max-width: 550px;
   flex-wrap: wrap;
 }
 
-.buttons button {
+/* الأزرار والروابط */
+.buttons button,
+.buttons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   padding: 14px 28px;
   border-radius: 12px;
-  border: none;
   cursor: pointer;
   font-size: 16px;
+  font-family: inherit;
+  text-decoration: none;
   transition: 0.3s;
 }
 
-.buttons button:first-child {
+/* الزر الأساسي */
+.buttons button:first-child,
+.buttons a:first-child {
   background: #9290c3;
   color: white;
+  border: none;
 }
 
-.buttons button:first-child:hover {
+.buttons button:first-child:hover,
+.buttons a:first-child:hover {
   background: #7f7db2;
+  transform: translateY(-2px);
 }
 
-.buttons button:last-child {
+/* الزر الثاني */
+.buttons button:last-child,
+.buttons a:last-child {
   background: transparent;
   border: 1px solid #9290c3;
   color: #fff;
 }
 
-.buttons button:last-child:hover {
+.buttons button:last-child:hover,
+.buttons a:last-child:hover {
   background: #9290c3;
 }
 
+/* Contact Info */
 .card-contact ul {
   list-style: none;
   margin-top: 20px;
@@ -120,6 +134,7 @@ max-width: 550px;
   color: #9290c3;
 }
 
+/* Social Media */
 .social-icons {
   margin-top: 35px;
 }
@@ -161,6 +176,7 @@ hr {
   font-size: 15px;
 }
 
+/* Mobile */
 @media (max-width: 768px) {
   .cards-contact {
     flex-direction: column;
@@ -174,7 +190,8 @@ hr {
     flex-direction: column;
   }
 
-  .buttons button {
+  .buttons button,
+  .buttons a {
     width: 100%;
   }
 
