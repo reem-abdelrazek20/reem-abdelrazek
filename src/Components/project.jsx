@@ -8,6 +8,14 @@ export default function Project() {
 
       <div className="project-grid">
         <Card
+        title="Jewelry Store"
+        copy="متجر إلكتروني لعرض وبيع المجوهرات، تم تطويره باستخدام React وTailwind CSS،
+         ويتيح للمستخدمين تصفح المنتجات، عرض تفاصيلها، تسجيل الدخول، 
+         وإضافة المنتجات إلى سلة التسوق مع حفظ بيانات السلة باستخدام Local Storage."
+         backgroundImage="/img/store.png"
+         linkgit="https://github.com/reem-abdelrazek20/jewelry-store.git"
+         link="https://jewelry-store-hazel.vercel.app/"/>
+        <Card
           title=" calculato App"
           copy="تطبيق آلة حاسبة بسيط ومتجاوب تم تطويره باستخدام 
           HTML وCSS وJavaScript  لتنفيذ العمليات الحسابية الأساسية بواجهة سهلة الاستخدام."
