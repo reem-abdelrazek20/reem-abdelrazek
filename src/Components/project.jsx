@@ -1,4 +1,4 @@
-import "../styles/project.css"
+import "../styles/project.css";
 import Card from "./card";
 
 export default function Project() {
@@ -8,13 +8,23 @@ export default function Project() {
 
       <div className="project-grid">
         <Card
-        title="Jewelry Store"
-        copy="متجر إلكتروني لعرض وبيع المجوهرات، تم تطويره باستخدام React وTailwind CSS،
+          title="E-commerce-dashboard"
+          copy="لوحة تحكم احترافية لإدارة متجر إلكتروني، تتيح عرض وإدارة المنتجات مع البحث والفلترة حسب المخزون والتصنيف، بالإضافة إلى حذف المنتجات وإضافة منتجات جديدة وPagination، مع تصميم Responsive باستخدام React وTailwind CSS وربط البيانات بـ API.
+"
+          backgroundImage="/img/dashboard.png"
+          linkgit="https://github.com/reem-abdelrazek20/ecommerce-dashboard.git"
+          link="https://ecommerce-dashboard-one-gamma.vercel.app/"
+        />
+
+        <Card
+          title="Jewelry Store"
+          copy="متجر إلكتروني لعرض وبيع المجوهرات، تم تطويره باستخدام React وTailwind CSS،
          ويتيح للمستخدمين تصفح المنتجات، عرض تفاصيلها، تسجيل الدخول، 
          وإضافة المنتجات إلى سلة التسوق مع حفظ بيانات السلة باستخدام Local Storage."
-         backgroundImage="/img/store.png"
-         linkgit="https://github.com/reem-abdelrazek20/jewelry-store.git"
-         link="https://jewelry-store-hazel.vercel.app/"/>
+          backgroundImage="/img/store.png"
+          linkgit="https://github.com/reem-abdelrazek20/jewelry-store.git"
+          link="https://jewelry-store-hazel.vercel.app/"
+        />
         <Card
           title=" calculato App"
           copy="تطبيق آلة حاسبة بسيط ومتجاوب تم تطويره باستخدام 
@@ -23,7 +33,7 @@ export default function Project() {
           linkgit="https://github.com/reem-abdelrazek20/calculator.git"
           link="https://calculator-sigma-seven-31.vercel.app/"
         />
-        
+
         <Card
           title="advice App"
           copy="تطبيق لعرض نصائح عشوائية باستخدام API بواجهة عصرية ومتجاوبة."
@@ -31,13 +41,13 @@ export default function Project() {
           linkgit="https://github.com/reem-abdelrazek20/Advice-generator-app.git"
           link="https://advice-generator-app-eight-chi.vercel.app/"
         />
-         <Card
-  title="Countries App"
-  backgroundImage="/img/countries.png"
-  linkgit="https://github.com/reem-abdelrazek20/countries-app.git"
-  link="https://countries-app-topaz-theta.vercel.app/"
-  copy="تطبيق لعرض معلومات الدول باستخدام REST Countries API مع البحث والفلترة وتغيير الثيم باستخدام React."
-/>
+        <Card
+          title="Countries App"
+          backgroundImage="/img/countries.png"
+          linkgit="https://github.com/reem-abdelrazek20/countries-app.git"
+          link="https://countries-app-topaz-theta.vercel.app/"
+          copy="تطبيق لعرض معلومات الدول باستخدام REST Countries API مع البحث والفلترة وتغيير الثيم باستخدام React."
+        />
         <Card
           title="Shorter Links App"
           copy="تطبيق بسيط لتقصير الروابط باستخدام React و useState."
@@ -51,9 +61,8 @@ export default function Project() {
           backgroundImage="/img/web.jpg"
           link="https://web-bage.vercel.app/"
           linkgit="https://github.com/reem-abdelrazek20/web-bage.git"
-
         />
-   
+
         <Card
           title="Mortgage-Calculator App"
           copy="تطبيق لحساب الفائدة ."
@@ -61,34 +70,29 @@ export default function Project() {
           link="https://mortgage-repayment-calculator-pi-one.vercel.app/"
           linkgit="https://github.com/reem-abdelrazek20/Mortgage--repayment-calculator"
         />
-         <Card
+        <Card
           title="Platinum Global Motors"
           copy="صفحة هبوط  ."
           backgroundImage="/img/card2.jpg"
           link="https://car-zeta-three.vercel.app/"
           linkgit="https://github.com/reem-abdelrazek20/car"
         />
-            <Card
+        <Card
           title="تحدي العلوم"
           backgroundImage="/img/card.jpg"
           linkgit="https://github.com/reem-abdelrazek20/scince"
           link="https://scince-phi.vercel.app/"
-           copy="HTML, CSS, JavaScript، لعبة أسئلة علمية تفاعلية مبنية باستخدام ة."
+          copy="HTML, CSS, JavaScript، لعبة أسئلة علمية تفاعلية مبنية باستخدام ة."
         />
-            <Card
+        <Card
           title="TO DO"
           backgroundImage="/img/card3.jpg"
           linkgit="https://github.com/reem-abdelrazek20/to-do"
           link="https://to-do-kappa-ochre.vercel.app/"
-           copy="قائمة مهام تفاعلية   لإضافة وحذف وتعديل المهام
+          copy="قائمة مهام تفاعلية   لإضافة وحذف وتعديل المهام
            HTML وCSS وJavaScript"
         />
       </div>
     </section>
   );
 }
-
-
-
-
-
