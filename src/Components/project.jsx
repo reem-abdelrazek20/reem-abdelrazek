@@ -25,6 +25,18 @@ export default function Project() {
           linkgit="https://github.com/reem-abdelrazek20/jewelry-store.git"
           link="https://jewelry-store-hazel.vercel.app/"
         />
+
+              <Card
+          title="Platinum Global Motors"
+          copy="موقع إلكتروني احترافي لشركة متخصصة في شراء وتصدير السيارات والمعدات من الولايات 
+          المتحدة الأمريكية إلى الأسواق العالمية. يركز الموقع على عرض خدمات الشركة بشكل واضح، مع توضيح مراحل الشراء والشحن، المزايا، الأسئلة الشائعة، 
+          وطرق التواصل، بالإضافة إلى تصميم متجاوب وسهل الاستخدام على مختلف الأجهزة."
+          backgroundImage="/img/card2.jpg"
+          link="https://car-zeta-three.vercel.app/"
+          linkgit="https://github.com/reem-abdelrazek20/car"
+        />
+
+
         <Card
           title=" calculato App"
           copy="تطبيق آلة حاسبة بسيط ومتجاوب تم تطويره باستخدام 
@@ -70,13 +82,7 @@ export default function Project() {
           link="https://mortgage-repayment-calculator-pi-one.vercel.app/"
           linkgit="https://github.com/reem-abdelrazek20/Mortgage--repayment-calculator"
         />
-        <Card
-          title="Platinum Global Motors"
-          copy="صفحة هبوط  ."
-          backgroundImage="/img/card2.jpg"
-          link="https://car-zeta-three.vercel.app/"
-          linkgit="https://github.com/reem-abdelrazek20/car"
-        />
+  
         <Card
           title="تحدي العلوم"
           backgroundImage="/img/card.jpg"
