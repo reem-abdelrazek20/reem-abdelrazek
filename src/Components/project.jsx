@@ -43,6 +43,14 @@ export default function Project() {
           linkgit="https://github.com/reem-abdelrazek20/shahd.git"
         />
 
+            <Card
+          title="Educational Quiz"
+          copy="موقع تفاعلي لعرض الأسئلة والإجابات بطريقة منظمة وسهلة الاستخدام. تم تطويره باستخدام HTML, CSS, JavaScript وJSON، حيث يتم تخزين بيانات الأسئلة والإجابات داخل ملف JSON وعرضها ديناميكيًا من خلال JavaScript."
+          backgroundImage="/img/Q.png"
+          link="https://edu-mauve-five.vercel.app/"
+          linkgit="https://github.com/reem-abdelrazek20/edu.git"
+        />
+
 
         <Card
           title=" calculato App"
