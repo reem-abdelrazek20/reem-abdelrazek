@@ -35,6 +35,13 @@ export default function Project() {
           link="https://car-zeta-three.vercel.app/"
           linkgit="https://github.com/reem-abdelrazek20/car"
         />
+             <Card
+          title="Shahd Art Portfolio"
+          copy="Portfolio شخصي للفنانة شهد لعرض أعمالها الفنية ورسوماتها بطريقة عصرية وجذابة، مع تصميم متجاوب وتفاعلات بسيطة لتحسين تجربة المستخدم. تم تطوير الموقع باستخدام HTML, CSS, وJavaScript."
+          backgroundImage="/public/img/shahd.png"
+          link="https://shahd-inky.vercel.app/"
+          linkgit="https://github.com/reem-abdelrazek20/shahd.git"
+        />
 
 
         <Card
